@@ -1,6 +1,6 @@
 
 class Queue{
-	constructor(fun){
+	constructor(fun, limit){
 		this.last = Promise.resolve();
 		this.fun = fun;
 	}
